@@ -40,9 +40,10 @@ header {
 
 .header_b {
     padding: 10px 20px;
-    background-color: rgb(216 41 186);
+    background-color: #B23DEB;
     border-radius: 50px;
     border: none;
+    color: #fff;
     margin-bottom: 5px;
 }
 
