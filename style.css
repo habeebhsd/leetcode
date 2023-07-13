@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+html {
+    font-family: 'Syne', sans-serif;
+}
+
 header {
     /* position: absolute; */
     padding: 30px 50px;
@@ -24,6 +28,7 @@ header {
 
 .header_li li {
     margin: 0px 20px;
+    cursor: pointer;
 }
 
 .header_div h1 {
@@ -45,6 +50,7 @@ header {
     border: none;
     color: #fff;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .header_h {
@@ -91,6 +97,7 @@ header {
     border: none;
     margin-top: 10px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 body {
@@ -116,6 +123,7 @@ body {
     border: none;
     margin-top: 10px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .secondpara_div {
@@ -150,12 +158,16 @@ footer {
     border-bottom: 1px solid black;
 }
 
+.footer_icons {
+    cursor: pointer;
+}
 
 .footer_ul {
     list-style: none;
     line-height: 25px;
     color: #000;
     margin: 5px 20px;
+    cursor: pointer;
 }
 
 
