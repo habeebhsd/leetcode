@@ -212,3 +212,86 @@ footer {
     text-decoration: underline;
     margin: 0px 5px;
 }
+
+@media screen and (max-width: 480px) {
+    .firstpara {
+        flex-direction: column;
+    }
+
+    .firstpara_div {
+        width: 300px;
+        margin: 50px;
+        word-spacing: 5px;
+    }
+
+    header {
+        padding: 30px 15px;
+
+    }
+
+    .header_div h1 {
+        font-size: 20px;
+
+    }
+
+    .header_li li {
+        margin: 0px 10px;
+
+    }
+
+    .header_b {
+        padding: 5px 15px;
+        font-size: 10px;
+
+    }
+
+    .header_li ul {
+        font-size: 10px;
+    }
+
+    .new {
+        color: rgb(195 143 221);
+    }
+
+    .firstpara_div h1 {
+        font-size: 40px;
+
+    }
+
+    .firstpara_div p {
+        font-size: 15px;
+    }
+
+    .firstpara_div button {
+        padding: 15px 25px;
+        font-size: 15px;
+        background-color: #B23DEB;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .firstpara_img img {
+        height: 400px;
+        margin-left: 30px;
+    }
+
+    .secondpara {
+        flex-direction: column;
+    }
+
+    .secondpara_div1 img {
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .bottom_flex {
+        flex-direction: column;
+    }
+}
